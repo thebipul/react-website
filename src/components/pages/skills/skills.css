@@ -1,0 +1,39 @@
+.skills{
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: auto;
+    
+}
+.skills-title{
+    display:flex;
+    justify-content: center;
+    color: #4169e1;
+    font-size: 45px;
+    padding-bottom: 30px;
+
+}
+.skills-content{
+    font-size: 30px;
+    color: #4169e1;
+    text-align: center;
+}
+.skills-images img{
+    width: 150px;
+    margin: 20px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+.skills-images img:hover{
+    border: none;
+    transition: all 0.5s ease;
+    
+
+}
+
+@media screen and (max-width:900px){
+    .skills{
+        width: 100%;
+    }
+}

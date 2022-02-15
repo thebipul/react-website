@@ -1,0 +1,17 @@
+.projects{
+    background-color: #4169e1;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.projects-title{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 30px;
+
+}
+.projects-content{
+    font-size: 30px;
+}
