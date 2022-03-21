@@ -1,17 +1,65 @@
-.projects{
-    background-color: #4169e1;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #fff;
+.projects {
+  background-color: #000;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
 }
-.projects-title{
-    font-size: 45px;
-    color: #fff;
-    font-weight: 600;
-    padding-bottom: 30px;
+.projects-title {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.react-projects-card {
+  color: #4169e1;
+}
+.projects-card {
+  color: #4169e1;
+}
+.react-img-card img {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+.projects-content {
+  font-size: 30px;
+  width: 70%;
+  margin: auto;
+}
+.appcard {
+  color: #4169e1;
+}
+.img-card img {
+  border: 10px solid #e6e6e6;
+  border-radius: 10px;
+  height: auto;
+}
+.other-projects li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.other-projects .card-text {
+  font-size: 20px;
+}
+@media screen and (max-width: 1100px) {
+  .projects-content {
+    width: 100%;
+  }
+}
 
+@media screen and (max-width: 900px) {
+  .projects-content {
+    width: 100%;
+  }
+  .appcard img {
+    height: auto;
+    object-fit: cover;
+  }
 }
-.projects-content{
-    font-size: 30px;
+@media screen and (max-width: 500px) {
+  .appcard img {
+    width: 70%;
+  }
 }

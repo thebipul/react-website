@@ -1,7 +1,6 @@
 .about{
     text-decoration: none;
     display: flex;
-    background: url("../../../images/bgimage.jpg")no-repeat center;
     background-color: black;
     height: 700px;
     color: #fff;
@@ -29,7 +28,7 @@
     object-fit: cover;
 }
 .right{
-    width: 45%;
+    width: 37%;
     display: flex;
     align-items: center;
     color: #fff;
@@ -118,4 +117,16 @@
     .bipul{
     }
     
+  }
+  @media screen and (max-width: 800px){
+      .left{
+          width: 70%;
+      }
+      .bipul{
+          padding-left: 40px;
+          margin-left: 20px;
+      }
+      .right{
+          padding-right: 10px;
+      }
   }

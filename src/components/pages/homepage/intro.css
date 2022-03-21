@@ -1,7 +1,6 @@
 .home {
     display: flex;
     justify-content: center;
-    background: url("../../../images/bgimage.jpg")no-repeat center;
     background-color: black;
     height: 700px;
     color: #fff;
@@ -75,4 +74,19 @@
     color: #4169E1;
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width:700px){
+    .title{
+        height: 40px;
+    }
+    .title-items{
+        height: 50px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:320px){
+    .home-content{
+        font-size: 60%;
+    }
 }

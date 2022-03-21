@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
-import './contact.css';
+import React, { useState } from "react";
+import "./contact.css";
+import ScrollToTop from "react-scroll-to-top";
 
 export default function ContactForm() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   return (
     <>
-      <form>
+      <ScrollToTop smooth top="20" />
+      <form id="contact">
         <div className="form-group">
           <label htmlFor="name">
             Your Name
@@ -45,7 +47,7 @@ export default function ContactForm() {
           </label>
         </div>
         <button type="submit">Send</button>
-        </form>
+      </form>
     </>
   );
 }
